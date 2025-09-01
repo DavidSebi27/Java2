@@ -7,10 +7,4 @@ public class Student
     {
         this.name = name;
     }
-
-    public Student(String name, boolean presence)
-    {
-        this.name = name;
-        this.presence = presence;
-    }
 }
