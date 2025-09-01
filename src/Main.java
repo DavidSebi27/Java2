@@ -5,7 +5,7 @@ public class Main
     {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of students in the group: ");
-        Integer numberOfStudents = input.nextInt();
+        int numberOfStudents = input.nextInt();
         Student[] students = new Student[numberOfStudents];
 
         for (int i = 0; i < numberOfStudents; i++)
